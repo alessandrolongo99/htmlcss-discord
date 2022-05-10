@@ -3,10 +3,20 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .flex-container{
     display: flex;
+}
+
+a{
+    color: white;
+}
+
+.button{
+    border-radius: 30px;
+    padding: 5px 15px;
 }
 
 /* header */
@@ -19,9 +29,18 @@ nav{
     padding: 15px 15%;
 }
 
-header a{
-    color: white;
-    font-size: 20px;
+.links, .login{
+    line-height: 35px;
+}
+
+.links > a{
+    margin: 10px;
+    padding: 10px;
+}
+
+.login{
+    color: black;
+    background-color: white;
 }
 
 header > div{
@@ -33,21 +52,39 @@ header > div{
 }
 
 h1{
-    font-size: 70px;
+    font-size: 50px;
+    margin: 50px;
 }
 
 header p{
-    font-size: 40px;
-    width: 60%;
+    font-size: 20px;
+    line-height: 32px;
+    width: 41%;
     margin: 0 auto;
 }
 
 .buttons{
-    margin: 50px auto;
+    margin: px;
+    justify-content: center;
+}
+
+.buttons > *{
+    margin: 20px;
+    line-height: 35px;
+}
+
+.fa-arrow-down-to-bracket{
+    color: black;
+    display: inline-block;
 }
 
 .download{
     color: black;
+    background-color: white;
+}
+
+.browser{
+    background-color: #23272A;
 }
 
 /* main */
@@ -66,18 +103,18 @@ header p{
 }
 
 .center1 div, .center3 div{
-    /* height: 500px;
-    border-style: dashed; */
+    height: 500px;
+    border-style: dashed; 
 }
 
 .center1 .sx, .center3 .sx{
-    /* flex-basis: 600px;
-    background-color: rgb(100, 100, 255); */
+    flex-basis: 600px;
+    background-color: rgb(100, 100, 255); 
 }
 
 .center1 .dx, .center3 .dx{
     flex-basis: 500px;
-    /*background-color: rgb(255, 100, 242); */
+    background-color: rgb(255, 100, 242); 
 }
 
 /* center2 */
@@ -154,10 +191,4 @@ footer{
 
 ul{
     list-style: none;
-}
-
-.buttons{
-    justify-content: space-between;
-    padding: 30px auto;
-    width: 80%;
 }
