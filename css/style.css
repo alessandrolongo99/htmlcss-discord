@@ -19,7 +19,7 @@ nav{
     padding: 15px 15%;
 }
 
-nav a{
+header a{
     color: white;
     font-size: 20px;
 }
@@ -36,58 +36,67 @@ h1{
     font-size: 70px;
 }
 
-p{
+header p{
     font-size: 40px;
     width: 60%;
     margin: 0 auto;
 }
+
+.buttons{
+    margin: 50px auto;
+}
+
+.download{
+    color: black;
+}
+
 /* main */
-.top{
-    background-color: blue;
-}
-
-.top div{
-    width: 50%;
-    height: 400px;
-    background-color: pink;
-    margin: 50px;
-    border-style: dashed;
-}
-
 /* center1, center3 */
 .center1, .center3{
     padding: 50px;
+    justify-content: center;
+}
+
+.center1, .center3 h2{
+    font-size: 70px;
+}
+
+.center1, .center3 p{
+    font-size: 40px;
 }
 
 .center1 div, .center3 div{
-    height: 500px;
-    border-style: dashed;
+    /* height: 500px;
+    border-style: dashed; */
 }
 
 .center1 .sx, .center3 .sx{
-    flex-basis: 600px;
-    background-color: rgb(100, 100, 255);
+    /* flex-basis: 600px;
+    background-color: rgb(100, 100, 255); */
 }
 
 .center1 .dx, .center3 .dx{
-    flex-basis: 400px;
-    background-color: rgb(255, 100, 242);
+    flex-basis: 500px;
+    /*background-color: rgb(255, 100, 242); */
 }
 
 /* center2 */
 .center2{
     padding: 50px;
-    background-color: rgb(170, 170, 170);
+    justify-content: center;
+    background-color: #F6F6F6;
 }
 
-.center2 div{
-    height: 500px;
-    border-style: dashed;
+.center2  h2{
+    font-size: 70px;
+}
+
+.center2 p{
+    font-size: 40px;
 }
 
 .center2 .sx{
-    flex-basis: 400px;
-    background-color: rgb(255, 100, 242);
+    flex-basis: 500px;
 }
 
 .center2 .dx{
@@ -97,8 +106,17 @@ p{
 
 /* bot */
 .bot{
-    background-color: rgb(170, 170, 170);
+    text-align: center;
+    background-color: #F6F6F6;
     padding: 50px;
+}
+
+.bot  h2{
+    font-size: 70px;
+}
+
+.bot p{
+    font-size: 40px;
 }
 
 .bot div{
@@ -141,13 +159,13 @@ footer{
 }
 
 /* buttons */
-.buttons{
+/* .buttons{
     background-color: aqua;
     margin: 50px auto;
     margin-bottom: 0;
     width: 1000px;
     justify-content: space-between;
-}
+} */
 
 button{
     background: none;
@@ -159,9 +177,9 @@ button{
 	outline: inherit;
 }
 
-.buttons > *{
+/* .buttons > *{
     background-color: rgb(255, 166, 0);
     padding: 10px;
     border-style: dashed;
     margin: 15px 0;
-}
+} */
