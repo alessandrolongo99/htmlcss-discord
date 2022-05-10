@@ -19,6 +19,11 @@ a{
     padding: 5px 15px;
 }
 
+.wave{
+    margin: 0;
+    filter: invert(100%) sepia(47%) saturate(94%) hue-rotate(161deg) brightness(114%) contrast(93%);
+}
+
 /* header */
 header{
     background-color: #255EE9;
@@ -105,6 +110,7 @@ header p{
 
 .bg{
     background-color: #F6F6F6;
+    margin: 0;
 }
 
 .bot{
