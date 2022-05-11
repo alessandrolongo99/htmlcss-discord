@@ -20,10 +20,15 @@ a{
 }
 
 .wave{
+    height: 100px;
+    background-image: url("../img/wave.svg");
     margin: 0;
     filter: invert(100%) sepia(47%) saturate(94%) hue-rotate(161deg) brightness(114%) contrast(93%);
 }
 
+.reverse{
+    transform: scaleY(-1);
+}
 /* header */
 header{
     background-color: #255EE9;
